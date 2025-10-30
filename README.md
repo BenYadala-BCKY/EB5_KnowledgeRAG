@@ -56,6 +56,17 @@ G --> H[Answer, concise with optional citation]
 
 ---
 
+## 📸 Demo Snapshots  
+
+| Step | Screenshot | Description |
+|------|-------------|--------------|
+| **1️⃣ Index Build** | ![Build Index](media/FAISS_build.png) | FAISS index built with 4 chunks |
+| **2️⃣ RAG Query** | ![RAG Query](media/RAG_query.png) | Top-k semantic matches retrieved |
+| **3️⃣ LoRA Training** | ![LoRA Saved](media/LoRA_saved.png) | LoRA adapter saved after fine-tuning |
+| **4️⃣ Final Prompt → Answer** | ![Custom Prompt Output](media/custom_prompt_answer.png) | Context-engineered prompt and LLM output |
+
+---
+
 ## 💡 Example Query  
 **Input:**  
 > Why do investors pursue residency-by-investment programs?  
